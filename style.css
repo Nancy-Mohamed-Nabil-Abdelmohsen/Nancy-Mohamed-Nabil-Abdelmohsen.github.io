@@ -1,0 +1,175 @@
+html,body{
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    background-image:  url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: rgb(67, 89, 187);
+    color: white;
+    text-align: center;
+    padding-block: 10px;
+}
+
+.navbar{
+    text-align: center;
+    background-color: black;
+    padding-block: 10px;
+
+}
+
+.navbar a{
+    padding: 10px;
+    font-size:20px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: rgb(67, 89, 187);
+    transition: 0.4s;
+}
+
+/*=================================================*/
+
+main{
+    flex: 1;
+}
+
+.main{
+    width: 60%;
+    margin: 40px auto;
+    background-color: rgba(0, 0, 0, 0.789);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.main h2,h3{
+    color: rgb(140, 153, 239);
+    margin-block:5px;
+}
+.main p,li{
+    color: white;
+    margin-block:5px;
+}
+.main section{
+     padding-block:15px;
+}
+
+/*=================================================*/
+
+footer{
+color: white;
+background-color: black;
+padding: 10px;
+text-align: center;
+}
+
+
+/*=================================================*/
+
+.main_courses{
+    width: 60%;
+    margin: 40px auto;
+    background-color: rgba(0, 0, 0, 0.789);
+    padding: 30px;
+    margin-block:60px;
+    border-radius: 10px;
+}
+
+.courseTable{
+border: 1px solid white;
+border-collapse: collapse;
+width: 100%;
+text-align: center;
+
+}
+
+.courseTable th,td{
+border: 1px solid white;
+padding:10px;
+color: white;
+}
+
+.courseTable thead th{
+background-color: rgb(67, 89, 187);
+
+}
+
+/*=================================================*/
+
+.main_add{
+    width: 60%;
+    margin: 40px auto;
+    background-color: rgba(0, 0, 0, 0.789);
+    padding: 30px;
+    margin-block:60px;
+    border-radius: 20px;
+    height: fit-content;
+}
+
+.main_add fieldset{
+    background-color: rgb(67, 89, 187);
+    border-radius: 15px;
+    border:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+  
+}
+
+.main_add fieldset input, textarea{
+    width:98%;
+    border-radius: 10px;
+    border:0;
+    margin-block:10px;
+    padding: 10px;
+}
+
+.main_add fieldset label{   
+    font-weight: bolder;
+    margin-bottom: 15px;
+
+}
+
+.main_add fieldset button{
+    width:100%;
+    border-radius: 10px;
+    border:0;
+    padding-block:10px;
+    font-weight: bolder;
+    
+}
+.main_add fieldset button:hover{
+    background-color: rgba(0, 0, 0, 0.373);
+    color: white;
+    transition: 0.4s;
+
+    
+}
+
+.main_contact h3{
+    margin-bottom: 20px;
+
+}
+
+.main_contact a{
+    color:white
+
+}
+
+.main_contact a:hover{
+    color:rgb(67, 89, 187);
+        transition: 0.3s;
+
+
+}

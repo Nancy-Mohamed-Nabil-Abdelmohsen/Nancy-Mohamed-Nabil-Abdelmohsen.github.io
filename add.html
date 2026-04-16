@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Course</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <header><h1>Add Course</h1></header>
+    <nav class="navbar">
+       <a href="index.html">Home</a>
+        <a href="courses.html">My Courses</a>
+        <a href="add.html">Add Course</a>
+        <a href="contact.html">Contact Us</a> 
+    </nav>
+    <main>
+    <div class="main_add">
+        <fieldset>
+        <form>
+            <div>
+                <label for="name">Course Name:</label><br>
+                <input id="name" type="text" required placeholder="course name">
+            </div>
+            <div>
+                <label for="instructor">Instructor:</label><br>
+                <input id="instructor" type="text" required placeholder="instructor">
+            </div>
+            <div>
+                 <label for="hr">Credit Hours:</label><br>
+                <input id="hr" type="number" max="3" min="1" required placeholder="credit hours">
+            </div>
+            <div>
+                <label for="note">Notes:</label><br>
+                <textarea id="note" cols="30" rows="5" required placeholder="notes"></textarea>
+            </div>
+            <button>Add Course</button>
+        </form>
+    </fieldset>
+    </div>
+    </main>
+    <footer>
+        <p>© 2026 Helwan University. All Rights Reserved.</p>
+        <p>Faculty of Computer science & Artificial Intelligence</p>
+   </footer>
+
+    
+</body>
+</html>
